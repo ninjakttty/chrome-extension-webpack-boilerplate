@@ -1,5 +1,16 @@
 import '../css/popup.css';
 
-import hello from './popup/example';
+import _ from  'underscore';
+import $ from 'jquery';
+import Backbone from 'backbone';
+import Marionette from 'backbone.marionette';
 
-hello();
+import App from './popup/App';
+Backbone.$ = $;
+window.$ = $;
+
+
+
+const app = new App();
+app.start();
+
