@@ -21,6 +21,7 @@
     "backbone.marionette": "~3.0.0",
     "backbone.radio": "~2.0.0",
     "gulp": "~3.9.1",
+    "handlebars-loader": "^1.4.0",
     "jquery": "~3.1.0",
     "momentjs": "~1.1.15",
     "tsd": "~0.6.5"
